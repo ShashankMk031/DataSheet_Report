@@ -31,12 +31,6 @@ The L293D IC uses **transistor pairs** to create the H-bridge circuit that contr
 
 The combination of NPN and PNP transistors allows the L293D to switch the polarity of the motor's connections, enabling forward and reverse rotation.
 
-### PWM (Pulse Width Modulation)
-
-PWM is a technique used to control the speed of motors by adjusting the duty cycle of a square wave signal. The L293D allows PWM to control the motor’s speed by adjusting the average voltage supplied to the motor. By increasing the duty cycle, the motor receives more voltage and spins faster. Conversely, decreasing the duty cycle reduces the speed.
-
-PWM is applied to the enable pin of the L293D. When the enable pin is high, the motor operates at full speed. By varying the duty cycle of the PWM signal, the speed of the motor can be controlled.
-
 ### H-Bridge Configuration
 
 The L293D uses an **H-bridge** circuit to control the direction of current flow through the motor. An H-bridge consists of four switching elements arranged in a bridge configuration:
